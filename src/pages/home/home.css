@@ -1,0 +1,27 @@
+.home__container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+    min-height: 100vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 3rem;
+}
+
+.home-link {
+    padding: 1.5rem 2.5rem;
+    border-radius: 5rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.home-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

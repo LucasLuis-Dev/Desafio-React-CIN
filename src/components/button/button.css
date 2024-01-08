@@ -1,0 +1,21 @@
+.button__container {
+    background: transparent;
+    color: #333;
+    padding: .8rem 2rem;
+    border: 0.1rem solid #333;
+    border-radius: 5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: 200ms;
+    width: 35%;
+    cursor: pointer;
+    font-family: Poppins, "Helvetica Neue";
+}
+
+.button__container:hover {
+    background-color: #db1d30;
+    border-color: #db1d30;
+    transform: translateY(-0.2rem);
+    color: white;
+    font-weight: 500;
+}

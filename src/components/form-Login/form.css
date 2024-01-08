@@ -1,0 +1,36 @@
+.form-login__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-register__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-login-input {
+    background: transparent;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.5rem;
+    border: none;
+    border: 1px solid #333;
+    border-radius: 2rem;
+    color: black;
+}
+
+.form-login-input::placeholder {
+    color: #333;
+}
+
+.form-login-input:focus-visible {
+    outline: none;
+    border-color: #db1d30;
+}
+
+
