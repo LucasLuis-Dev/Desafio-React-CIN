@@ -18,4 +18,5 @@
     transform: translateY(-0.2rem);
     color: white;
     font-weight: 500;
+    box-shadow: 0 10px 20px rgba(0,0,0, .2);
 }

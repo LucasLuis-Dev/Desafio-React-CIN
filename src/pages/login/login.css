@@ -9,23 +9,6 @@
     background-size: cover;
 }
 
-.login-form__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    background-color: white;
-    padding: 3rem;
-    border-radius: 2rem;
-    width: fit-content;
-    gap: 1rem;
-
-    border: 1px solid rgba(255, 255, 255, .25);
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.45);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-
-    backdrop-filter: blur(5px);
-}
 
 .login-form-img {
     width: 50rem;
@@ -38,14 +21,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-
 }
 
-.login-redirect {
-    text-align: center;
-    font-size: 1.3rem;
-}
 
-.login-redirect a {
-    font-weight: bold;
-}
+

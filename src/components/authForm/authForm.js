@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from '../button/button';
 
-import './form.css';
+import './authForm.css';
 
 const AuthForm = ({ type, onSubmit }) => {
   const [email, setUsername] = useState('');
@@ -15,13 +15,13 @@ const AuthForm = ({ type, onSubmit }) => {
   return (
     <form className={`form-${type}__container`} onSubmit={handleSubmit}>
       <input
-        className='form-login-input'
+        className='form-input'
         placeholder='Email'
         value={email}
         onChange={(e) => setUsername(e.target.value)}
       />
       <input
-        className='form-login-input'
+        className='form-input'
         placeholder='Password'
         type='password'
         value={psw}

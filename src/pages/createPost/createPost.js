@@ -5,7 +5,7 @@ import Title from '../../components/title/title';
 import {PostService} from '../../services/PostService';
 import { getCurrentUser } from '../../services/AuthService';
 
-import "./postPage.css"
+import "./createPost.css"
 
 const PostPage = () => {
     const navigate = useNavigate();

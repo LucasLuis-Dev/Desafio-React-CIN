@@ -1,8 +1,8 @@
 .post__container {
     display: flex;
     flex-direction: column;
-    width: 40rem;
-    height: 40rem;
+    width: 50rem;
+    height: 50rem;
     justify-content: center;
     align-items: center;
 }
@@ -22,7 +22,8 @@
     background-color: white;
     width: 100%;
     margin-top: -0.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
     border-radius: 0 0 2rem 2rem;
 }
 

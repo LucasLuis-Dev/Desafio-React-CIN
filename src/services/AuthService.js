@@ -3,23 +3,23 @@ export const registerUser = (userData) => {
   
     const existingUser = users.find((user) => user.email === userData.email);
     if (existingUser) {
-      alert('Username already exists');
-      return;
+      throw new Error('Username already exists');
     }
-    console.log(userData)
+
+    if (userData.psw === '') {
+      throw new Error('invalid password');
+    }
+   
     users.push(userData);
     saveUsersToLocalStorage(users);
-
-    
   };
   
   export const loginUser = (email, psw) => {
     const users = getUsersFromLocalStorage();
     
     const user = users.find((user) => user.email === email && user.psw === psw);
-    console.log(user)
+    
     if (!user) {
-      alert('Invalid credentials');
       return null;
     }
   

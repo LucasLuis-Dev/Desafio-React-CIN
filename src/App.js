@@ -4,7 +4,7 @@ import './App.css';
 import Login from './pages/login/login';
 import Register from './pages/register/register';
 import Home from './pages/home/home';
-import Post from './pages/postPage/postPage';
+import Post from './pages/createPost/createPost';
 
 function App() {
   return (
