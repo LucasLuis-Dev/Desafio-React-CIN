@@ -1,0 +1,43 @@
+.arrowToTop__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 1%;
+    cursor: pointer;
+    animation: slideToTop .3s ease-in-out;
+    transition: 200ms;
+    border: 1px solid white;
+}
+
+.arrowToTop__container:hover {
+    background-color: #db1d30;
+    border: 1px solid white;
+    fill: white;
+}
+
+.arrowToTop-img {
+    width: 2rem;
+}
+
+@keyframes slideToTop {
+    0% {
+        opacity: 0;
+        transform: translateY(6rem);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+@media screen and (max-width: 480px) {
+    .arrowToTop__container {
+        right: 2%;
+    }
+}

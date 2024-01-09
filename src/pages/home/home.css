@@ -7,22 +7,36 @@
     width: 100%;
     justify-content: flex-start;
     align-items: center;
-    padding: 4rem 0;
+    padding: 2rem 0;
     gap: 3rem;
 }
 
 .home-link {
     padding: 1.5rem 2.5rem;
     border-radius: 5rem;
-    background-color: #db1d30;
+    background-color:white;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    transition: 200ms;
+}
+
+.home-link:hover {
+    transform: translateY(-0.2rem);
+    background-color: #db1d30;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
 }
 
 .home-posts-list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .home__container {
+        padding: 1rem 0;
+    }
 }

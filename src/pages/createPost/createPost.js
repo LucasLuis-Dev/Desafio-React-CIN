@@ -27,8 +27,8 @@ const PostPage = () => {
     };
 
     return (
-        <div className='post-page__container'>
-            <div className='post-page-form__container'>
+        <div className='create-post__container'>
+            <div className='create-post-form__container'>
                 <Title title="Crie Sua Postagem" />
                 <PostForm onPostSubmit={handlePostSubmit} />
             </div>
